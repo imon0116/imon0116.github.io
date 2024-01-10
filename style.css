@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lemon&family=Roboto:ital,wght@0,300;1,300&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&family=Titan+One&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    /* font-family: 'Lemon'; */
+    font-family: 'rubik doodle shadow';
+    margin: 0;
+    background-color: #03071e;
+}
+header {
+    width: 1280px;
+    margin: auto;
+    padding: 0px 30px;
+    border-radius: 16px;
+    background-color: #370617;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+header a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+header h1 {
+    color: white;
+    margin-right: auto;
+}
+ul.menu {
+    display: flex; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+    }
+ul.menu a {
+     padding: 10px 20px;
+}
+ul.menu a:hover {
+    background-color: #6a040f;
+    border-radius: 20px;
+}
+
+div.wrap-all {
+    width: 830px;
+    margin: 16px auto;
+}
+main.main-card {
+    color: white;
+    width: 1280px;
+    height: 550px;
+    margin: 16px auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    background-image: url(image/pexels-luciann-photography-3566120.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+div.card {
+    width: 200px;
+    height: 300px;
+    background-color:#03071e;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+div.card-image {
+    color: #03071e;
+    font-size: 20px;
+    font-weight: 800;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 250px;
+    padding-top: 210px;
+    padding-left: 20px;
+    background-size: cover;
+    margin-bottom: 16px;
+    border-radius: 10px
+}
+a.card_button {
+    display: block;
+    font-family: 'titan one';
+    background-color: #03071e;
+    color: #e85d04;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    border-radius: 16px;
+    border: 1px solid #9d0208;
+}
+div.firework .card-image {
+    background-image: url(image/pexels-anastasia-belousova-10572388.jpg);
+}
+div.fox .card-image {
+    background-image: url(image/pexels-marcelo-verfe-16148201.jpg);
+}
+div.smoking .card-image {
+    background-image: url(image/pexels-marcos-kohler-17182373.jpg);
+}
+div.breeze .card-image {
+    background-image: url(image/2024-01-02\ 223636.png);
+}
+div.jade .card-image {
+    background-image: url(image/pexels-pinaak-kumar-16730217.jpg);
+}
+div.ocean .card-image {
+    background-image: url(image/pexels-antonio-jose-meza-cardenas-2480828.jpg);
+}
+div.beach .card-image {
+    background-image: url(image/pexels-leonardo-luz-13999323\(1\).jpg);
+}
+div.tonic .card-image {
+    background-image: url(image/pexels-nacho-posse-9648810.jpg);
+}
+div.mystery .card-image {
+    background-image: url(image/pexels-dima-valkov-2795026.jpg);
+}
+section {
+    display: flex;
+    gap: 115px;
+}
+div.sns{
+    display: flex;
+    background-color: #03071e;
+    width: 250px;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.arrow{
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+footer {
+    color: #e85d04;
+    font-size: 15px;
+    text-align: center;
+    width: 1280px;
+    margin: 0 auto;
+    line-height: 30px;
+    background-color: #370617;
+    border-top: 5px solid #6a040f;
+}
